@@ -3,6 +3,7 @@ BIN_DIR = bin
 all: clean build
 
 build:
+
     @echo "Building a directory"
     mkdir $(BIN_DIR)
 
