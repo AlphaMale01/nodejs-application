@@ -5,7 +5,7 @@ all: clean build
 build:
 
     @echo "Building a directory"
-    mkdir $(BIN_DIR)
+    mkdir -p $(BIN_DIR)
 
 clean:
     @echo "Cleaning the directory"
